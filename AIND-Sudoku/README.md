@@ -3,13 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: 
 Here we use elimination and only choice to solve the problem. Unlike the single cell elimination here we look for cells of length 2, after finding two length cells we remove the value found in twin from their row peers, column peers and square peers. That makes up for the only choice step of constant propagation.
 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: 
 Here we introduce a new set of peers of left to right diagonal and right to left diagonal. So in Elimination step while considering row, column and square peers we also consider diagonal peers, which allows us to deal with the values of the diagonal. Only Choice step for constant propagation automatically takes care for the values after the elimination step.  
 
 ### Install
@@ -31,6 +31,13 @@ If not, please see how to download pygame [here](http://www.pygame.org/download.
 * `solution_test.py` - Do not modify this. You can test your solution by running `python solution_test.py`.
 * `PySudoku.py` - Do not modify this. This is code for visualizing your solution.
 * `visualize.py` - Do not modify this. This is code for visualizing your solution.
+
+A few visulizations from Sudoku Solver:
+##Intermediate Steps
+![alt text](https://github.com/DivyanshBhatia/AI_Projects/blob/master/AIND-Sudoku/Intermediate.png)
+
+##Final Solution
+![alt text](https://github.com/DivyanshBhatia/AI_Projects/blob/master/AIND-Sudoku/Final.png)
 
 ### Visualizing
 
