@@ -33,10 +33,10 @@ If not, please see how to download pygame [here](http://www.pygame.org/download.
 * `visualize.py` - Do not modify this. This is code for visualizing your solution.
 
 A few visulizations from Sudoku Solver:
-##Intermediate Steps
+## Intermediate Steps
 ![alt text](https://github.com/DivyanshBhatia/AI_Projects/blob/master/AIND-Sudoku/Intermediate.png)
 
-##Final Solution
+## Final Solution
 ![alt text](https://github.com/DivyanshBhatia/AI_Projects/blob/master/AIND-Sudoku/Final.png)
 
 ### Visualizing
